@@ -1,0 +1,11 @@
+{
+  "test": {
+    "data1": {
+      "array": [
+        "test",
+        "array"
+      ]
+    },
+    "data2": 5
+  }
+}
