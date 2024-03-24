@@ -1,0 +1,171 @@
+.welcome {
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome h2 {
+  text-align: left;
+  font-size: 20px;
+  /* Adjust the size as needed */
+  margin-bottom: 10px;
+  /* Add margin to separate from the paragraph */
+}
+
+.welcome p {
+  font-size: 18px;
+  /* Adjust the size as needed */
+  margin: 0;
+  /* Remove default margin */
+}
+
+.full-width {
+  flex: 1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.features {
+  display: flex;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.feature.full-width {
+  flex: 1;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+}
+
+.user-balance,
+.transactions {
+  border-left: 1px solid #ccc;
+  flex: 1;
+  padding: 20px;
+}
+
+.transactions {
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+.transaction-box {
+  margin-bottom: 10px;
+}
+
+.transaction-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.transaction-box input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.transaction-box input[type="number"] {
+  appearance: textfield;
+  /* Hide the spinner for number input */
+}
+
+.transaction-box input[type="number"]::-webkit-inner-spin-button,
+.transaction-box input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.currency-rates {
+  display: flex;
+  align-items: center;
+  /* Align items vertically */
+}
+
+.divider {
+  border-left: 1px solid #ccc;
+  height: 100%;
+  /* Stretch the divider to match the height of the section */
+}
+
+.currency-rates-box,
+.chatbot {
+  border-left: 1px solid #ccc;
+  flex: 1;
+  padding: 20px;
+}
+
+.currency-rates-box h2,
+.chatbot h2 {
+  margin-bottom: 10px;
+}
+
+.chat-input,
+.chat-response {
+  margin-bottom: 20px;
+}
+
+.chat-input label,
+.chat-response p {
+  margin-bottom: 5px;
+}
+
+.chat-input input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
