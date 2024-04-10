@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/a5/META"
+  "_build/install/default/lib/a5/dune-package"
+  "_build/install/default/lib/a5/opam"
+]
+bin: [
+  "_build/install/default/bin/a5"
+]

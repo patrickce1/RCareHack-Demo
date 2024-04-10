@@ -1,0 +1,133 @@
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Runner: processes
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Chooser: simple
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration suite_name = "Tests for all modules"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration cache_filename = "/Users/user1/Documents/CS3110/a5/_build/default/test/oUnit-$(suite_name).cache"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration run_gc_full_major = "true"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration seed = "-1"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration display = "true"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration results_style_1_X = "false"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration testdata_dir = "none"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration health_check_interval = "1."
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration verbose = "false"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration chooser = "simple"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration output_html_dir = "none"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration processes_kill_period = "5."
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration runner = "processes"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration shards = "2"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration processes_grace_period = "5."
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration qcheck_verbose = "true"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration log_encoding = "utf-8"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration output_junit_file = "none"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration ci = "false"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration qcheck_long = "false"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Configuration output_file = "/Users/user1/Documents/CS3110/a5/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Using 2 workers maximum.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Starting worker number dhcp-vl2041-36825.eduroam.cornell.edu#01.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Worker dhcp-vl2041-36825.eduroam.cornell.edu#01 started.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Starting worker number dhcp-vl2041-36825.eduroam.cornell.edu#02.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Worker dhcp-vl2041-36825.eduroam.cornell.edu#02 started.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:1:make_plant, Tests for all modules:0:set_age.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: Start test Tests for all modules:0:set_age.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:1:make_plant, Tests for all modules:0:set_age.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: law set_age: 100 relevant cases (100 total)
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:1:make_plant, Tests for all modules:0:set_age.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: Start test Tests for all modules:1:make_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:1:make_plant, Tests for all modules:0:set_age.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: law make_plant: 100 relevant cases (100 total)
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:1:make_plant, Tests for all modules:0:set_age.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: Test Tests for all modules:0:set_age is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:1:make_plant, Tests for all modules:0:set_age.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: End test Tests for all modules:0:set_age.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:1:make_plant, Tests for all modules:0:set_age.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:2:make_pot, Tests for all modules:1:make_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: Start test Tests for all modules:2:make_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:2:make_pot, Tests for all modules:1:make_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: law make_pot: 100 relevant cases (100 total)
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:2:make_pot, Tests for all modules:1:make_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: Test Tests for all modules:1:make_plant is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:2:make_pot, Tests for all modules:1:make_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: End test Tests for all modules:1:make_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:2:make_pot, Tests for all modules:1:make_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:3:create_plant, Tests for all modules:2:make_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: Start test Tests for all modules:3:create_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:3:create_plant, Tests for all modules:2:make_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: law create_plant: 100 relevant cases (100 total)
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:3:create_plant, Tests for all modules:2:make_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: Test Tests for all modules:2:make_pot is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:3:create_plant, Tests for all modules:2:make_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: End test Tests for all modules:2:make_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:3:create_plant, Tests for all modules:2:make_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:4:update_pot, Tests for all modules:3:create_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: Start test Tests for all modules:4:update_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:4:update_pot, Tests for all modules:3:create_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: Test Tests for all modules:3:create_plant is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: law update_pot: 100 relevant cases (100 total)
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:4:update_pot, Tests for all modules:3:create_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: End test Tests for all modules:3:create_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:4:update_pot, Tests for all modules:3:create_plant.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:5:make_garden, Tests for all modules:4:update_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: Start test Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:5:make_garden, Tests for all modules:4:update_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: Test Tests for all modules:4:update_pot is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:5:make_garden, Tests for all modules:4:update_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: End test Tests for all modules:4:update_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:5:make_garden, Tests for all modules:4:update_pot.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Still 2 tests running : Tests for all modules:6:Test pots in make_garden, Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:6:Test pots in make_garden, Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: Start test Tests for all modules:6:Test pots in make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Still 2 tests running : Tests for all modules:6:Test pots in make_garden, Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:6:Test pots in make_garden, Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: Test Tests for all modules:6:Test pots in make_garden is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Still 2 tests running : Tests for all modules:6:Test pots in make_garden, Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:6:Test pots in make_garden, Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#01 I: End test Tests for all modules:6:Test pots in make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Still 2 tests running : Tests for all modules:6:Test pots in make_garden, Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 2 tests running: Tests for all modules:6:Test pots in make_garden, Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Still 1 tests running : Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 1 tests running: Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: law make_garden: 100 relevant cases (100 total)
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: 
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Still 1 tests running : Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 1 tests running: Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: Test Tests for all modules:5:make_garden is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Still 1 tests running : Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 1 tests running: Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#02 I: End test Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Still 1 tests running : Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 1 tests running: Tests for all modules:5:make_garden.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: 0 tests running: .
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Worker dhcp-vl2041-36825.eduroam.cornell.edu#02 has ended.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Worker dhcp-vl2041-36825.eduroam.cornell.edu#01 died unexpectedly.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Used 2 worker during test execution.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Run 4 tests with shard dhcp-vl2041-36825.eduroam.cornell.edu#01.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Run 3 tests with shard dhcp-vl2041-36825.eduroam.cornell.edu#02.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Check health of shard dhcp-vl2041-36825.eduroam.cornell.edu#01, 6 times.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Check health of shard dhcp-vl2041-36825.eduroam.cornell.edu#02, 1 times.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: ==============
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Summary:
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Test Tests for all modules:5:make_garden is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Test Tests for all modules:6:Test pots in make_garden is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Test Tests for all modules:4:update_pot is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Test Tests for all modules:3:create_plant is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Test Tests for all modules:2:make_pot is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Test Tests for all modules:1:make_plant is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Test Tests for all modules:0:set_age is successful.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Ran: 7 tests in: 0.20 seconds.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Cases: 7.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Tried: 7.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Errors: 0.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Failures: 0.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Skip: 0.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Todo: 0.
+2024-04-10T00:23:12+00:00 dhcp-vl2041-36825.eduroam.cornell.edu#00 I: Timeout: 0.
