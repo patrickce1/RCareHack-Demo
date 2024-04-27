@@ -39,8 +39,8 @@ app.put('/updatePrompt', async (req, res) => {
 
     try {
         const { prompt } = req.body;
-        const apiKey = "";
-        const assistantId = "";
+        // const apiKey = "";
+        // const assistantId = "";
 
         console.log("step1");
 
