@@ -37,33 +37,33 @@ app.get('/todos', (req, res) => {
 
 app.put('/updatePrompt', async (req, res) => {
 });
-    // //////////////////////////////////////////////////////
-    // //Create a todo
-    // app.post("/todos", async (req, res) => {
-    //     try {
-    //         const { description } = req.body;
-    //         const newTodo = await pool.query(
-    //             "INSERT INTO todo (description) VALUES($1) RETURNING *",
-    //             [description]
-    //         );
-    //         res.json(newTodo.rows[0]);
-    //     } catch (err) {
-    //         console.error(err.message);
-    //     }
-    // });
+// //////////////////////////////////////////////////////
+// //Create a todo
+// app.post("/todos", async (req, res) => {
+//     try {
+//         const { description } = req.body;
+//         const newTodo = await pool.query(
+//             "INSERT INTO todo (description) VALUES($1) RETURNING *",
+//             [description]
+//         );
+//         res.json(newTodo.rows[0]);
+//     } catch (err) {
+//         console.error(err.message);
+//     }
+// });
 
 
 
-    // //get single todo
-    // app.get("/todos/:id", async (req, res) => {
-    //     try {
-    //         const { id } = req.params;
-    //         const todo = await pool.query("SELECT * FROM todo WHERE id = $1", [id]);
-    //         res.json(todo.rows[0]);
-    //     } catch (err) {
-    //         console.error(err.message);
-    //     }
-});
+// //get single todo
+// app.get("/todos/:id", async (req, res) => {
+//     try {
+//         const { id } = req.params;
+//         const todo = await pool.query("SELECT * FROM todo WHERE id = $1", [id]);
+//         res.json(todo.rows[0]);
+//     } catch (err) {
+//         console.error(err.message);
+//     }
+
 
 //update a todo
 app.put("/stable", async (req, res) => {
