@@ -1,4 +1,0 @@
-(executable
- (public_name a5)
- (name main)
- (libraries a5 ounit2 ANSITerminal))

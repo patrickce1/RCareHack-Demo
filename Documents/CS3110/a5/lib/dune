@@ -1,6 +1,0 @@
-(library
- (inline_tests)
- (name a5)
- (preprocess
-  (pps ppx_inline_test))
- (libraries ounit2 ANSITerminal))

@@ -1,3 +1,0 @@
-(test
- (name test_a5)
- (libraries a5 ounit2 qcheck))
