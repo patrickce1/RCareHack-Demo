@@ -26,6 +26,23 @@ import './styles.css';
 
 function App() {
   const [response, setResponse] = useState('Answer1');
+  const [bitbalance, setbitbalance] = useState(10);
+  const [stable, setStable] = useState("Stable coin")
+
+  const handleChangeBit = async () => {
+    try {
+
+      const bitChange = await fetch('http://localhost:8001/todos')
+      const data = await bitChange.json();
+      setbitbalance(data);
+    }
+    catch {
+
+      console.error("Patrick error");
+
+    }
+  }
+
 
   const handleInputChange = async (event) => {
     // Handle user input here
@@ -47,14 +64,6 @@ function App() {
 
       console.log("before await respons");
       const data = await fetchResponse.json();
-      // HttpClient client = HttpClient.newHttpClient();
-      // HttpRequest request = HttpRequest.newBuilder()
-      //   .uri(URI.create("http://localhost:5000/myfunction"))
-      //   .POST(HttpRequest.BodyPublishers.ofString("Your data here"))
-      //   .build();
-
-      // HttpResponse < String > response = client.send(request, HttpResponse.BodyHandlers.ofString());
-      // System.out.println(response.body());
 
 
 
@@ -74,6 +83,44 @@ function App() {
       // Handle response from server
     }
   };
+
+  const handleStableChange = async (event) => {
+    const userInput = event.target.value;
+    try {
+
+      const fetchResponse = await fetch('http://localhost:8001/stable', {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ prompt: userInput })
+      });
+
+      console.log("put has been sent");
+
+
+      console.log("before await respons");
+      const data = await fetchResponse.json();
+
+
+
+      console.log("this is data", data);
+
+      if (data.response !== undefined) {
+        setStable(data.response);
+        console.log('Response from server:', data.response);
+      } else {
+        console.error('Invalid server response:', data);
+      }
+    } catch (error) {
+      console.error('Error:', error);
+
+
+      // window.location.reload();
+      // Handle response from server
+    }
+
+  }
   // Function to generate random percentage between -5% to 5%
   const generateRandomPercentage = () => {
     return (Math.random() * 10 - 5).toFixed(2);
@@ -160,8 +207,11 @@ function App() {
             <p>$ balance: $100</p>
             <p>Stable Coin balance:</p>
             <ul>
-              <li>Bitcoin - 2.5</li>
-              <li>Stable Coin - 1.2</li>
+              <li>Bitcoin - {bitbalance}</li>
+              <li>{stable} - 1.2</li>
+              <input type="text" id="userQuestion" placeholder="Type your question" />
+              <button onClick={() => handleStableChange({ target: { value: document.getElementById("userQuestion").value } })}>Submit</button>
+
             </ul>
           </div>
           <div className="transactions">
@@ -198,6 +248,7 @@ function App() {
               <label htmlFor="userQuestion">Your Question:</label>
               <input type="text" id="userQuestion" placeholder="Type your question" />
               <button onClick={() => handleInputChange({ target: { value: document.getElementById("userQuestion").value } })}>Submit</button> {/* Button to trigger API call */}
+              <button onClick={() => handleChangeBit()}>Pat button</button>
             </div>
             <div className="chat-response">
               <p>{response}</p>
@@ -213,8 +264,9 @@ function App() {
       <footer>
         <p>&copy; 2024 Cryptonite. All rights reserved.</p>
       </footer>
-    </div>
+    </div >
   );
 }
+
 
 export default App;

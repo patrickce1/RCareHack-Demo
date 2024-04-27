@@ -6,6 +6,8 @@
         "array"
       ]
     },
-    "data2": 5
-  }
+    "data2": 40,
+    "data3": "stable"
+  },
+  "someKey": "hi"
 }

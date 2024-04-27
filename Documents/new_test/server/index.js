@@ -26,7 +26,8 @@ app.get('/todos', (req, res) => {
             const jsonData = JSON.parse(data);
 
             // Respond with the JSON data
-            res.json(jsonData);
+            console.log(jsonData)
+            res.json(jsonData["test"]["data2"])
         } catch (error) {
             console.error('Error parsing JSON:', error);
             return res.status(500).json({ error: 'Internal server error' });
@@ -35,31 +36,11 @@ app.get('/todos', (req, res) => {
 });
 
 app.put('/updatePrompt', async (req, res) => {
-    // const { prompt } = req.body;
-    // if (!prompt) {
-    //     return res.status(400).send('No prompt provided');
-    // }
 
-    // const process = spawn('python', ['/Users/user1/documents/test/todo-pern/server/CryptoAgent.py', prompt]);
-    // let scriptOutput = "";
-
-    // process.stdout.on('data', (data) => {
-    //     scriptOutput += data.toString();
-    // });
-
-    // process.stderr.on('data', (data) => {
-    //     console.error(`stderr: ${data}`);
-    // });
-
-    // process.on('close', (code) => {
-    //     console.log(`Exited with code: ${code}`);
-    //     res.json({ response: scriptOutput });
-
-    // });
     try {
         const { prompt } = req.body;
-        const apiKey = "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";
-        const assistantId = "asst_hi8RuTAIkDea4MRzcQ5SE7zl"
+        const apiKey = "sk-proj-68iXw6nW2k2urdG2OPDyT3BlbkFJEgTWxEb1rnjauCK4q15h";
+        const assistantId = "asst_zK2j7F9qcdplZ5INAItUyn8j"
 
         console.log("step1");
 
@@ -169,16 +150,52 @@ app.get("/todos/:id", async (req, res) => {
 });
 
 //update a todo
-app.put("/todos/:id", async (req, res) => {
-    try {
-        const { id } = req.params;
-        const { description } = req.body;
-        await pool.query(
-            "UPDATE todo SET description = $1 WHERE id = $2", [description, id]);
-        res.json("Todo was updated!");
-    } catch (err) {
-        console.error(err.message);
+app.put("/stable", async (req, res) => {
+    const editJsonFile = (filePath, prompt, callback) => {
+        fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) {
+                console.error('Error reading JSON file:', err);
+                return callback(err);
+            }
+
+            try {
+                // Parse JSON data
+                const jsonData = JSON.parse(data);
+
+                // Modify the data (for example, add or update a property)
+                jsonData.someKey = prompt; // Adjust this line according to your JSON structure
+
+                // Convert back to JSON string
+                const updatedJsonData = JSON.stringify(jsonData, null, 2); // Optionally, use null and 2 for pretty-printing
+
+                // Write the updated JSON data back to the file
+                fs.writeFile(filePath, updatedJsonData, 'utf8', (err) => {
+                    if (err) {
+                        console.error('Error writing JSON file:', err);
+                        return callback(err);
+                    }
+
+                    // Callback with no error
+                    callback(null);
+                });
+            } catch (error) {
+                console.error('Error parsing JSON:', error);
+                return callback(error);
+            }
+        });
     }
+
+    const filePath = 'data.json';
+    const { prompt } = req.body;
+    editJsonFile(filePath, prompt, (err) => {
+        if (err) {
+            console.error('Error editing JSON file:', err);
+            res.status(500).json({ error: 'Internal Server Error' }); // Send appropriate error response
+        } else {
+            console.log('JSON file edited successfully');
+            res.json({ response: prompt }); // Send success response
+        }
+    });
 });
 
 //delete a todo
